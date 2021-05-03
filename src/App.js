@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./navbar/Navbar";
 import FormField from "./formfield/FormField";
 import CoolButton from "./coolButton/CoolButton";
+import Signup from "./signup/Signup";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Signup />
     </div>
   );
 }
