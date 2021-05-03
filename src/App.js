@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Navbar />
       <header className="App-header">
-        <section>
+        <section className="box">
           <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
           <FormField
             label="Email"

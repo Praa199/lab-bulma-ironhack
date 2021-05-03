@@ -2,12 +2,13 @@ import Navbar from "../navbar/Navbar";
 import FormField from "../formfield/FormField";
 import CoolButton from "../coolButton/CoolButton";
 import "bulma/css/bulma.css";
+import "../signup/Signup.css";
 
 function Signup(props) {
   return (
     <article className="signup-container">
       <Navbar />
-      <section>
+      <section className="box">
         <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
         <FormField
           label="Email"

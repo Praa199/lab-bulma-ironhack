@@ -1,0 +1,9 @@
+.signup-container {
+  justify-content: center;
+  align-items: center;
+}
+
+section.box {
+  width: 30%;
+  margin: 10% 0 10% 35%;
+}
