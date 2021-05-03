@@ -1,5 +1,6 @@
 import React from "react";
 import "bulma/css/bulma.css";
+import CoolButton from "../coolButton/CoolButton";
 
 const Navbar = () => {
   return (
@@ -24,7 +25,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="field is-grouped">
-              <p className="control">
+              <CoolButton className="control">
                 <a
                   className="button is-info"
                   data-social-target="https://bulma.io"
@@ -33,15 +34,15 @@ const Navbar = () => {
                 >
                   <span>Login</span>
                 </a>
-              </p>
-              <p className="control">
+              </CoolButton>
+              <CoolButton className="control">
                 <a
                   className="button is-primary"
                   href="https://github.com/jgthms/bulma/releases/download/0.9.2/bulma-0.9.2.zip"
                 >
                   <span>Signup</span>
                 </a>
-              </p>
+              </CoolButton>
             </div>
           </div>
         </div>
